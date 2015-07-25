@@ -1,14 +1,21 @@
 # allcran
 
-graph crawler flor cran/mran registry
+graph crawler flor [cran](https://cran.r-project.org/)/[mran](https://mran.revolutionanalytics.com/)
+registry
 
 # install
 
-With [npm](https://npmjs.org) do:
+This simple steps will produce local version of the bower graph:
 
 ```
-npm install allcran
+git clone https://github.com/anvaka/allcran
+cd allcran
+npm install
+node index.js
+node layout.js
 ```
+
+The ouptut is stored to `./data` folder, and can be consumed by [pm visualization](https://github.com/anvaka/pm)
 
 # license
 
