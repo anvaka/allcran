@@ -32,6 +32,7 @@ function crawlDependencies(index) {
       console.log('ERROR: ' + err);
       return;
     }
+    console.log('Downloading ' + res.uri);
 
     if (total % chunkSize === 0) {
       queueChunk();
