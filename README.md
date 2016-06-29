@@ -1,6 +1,6 @@
 # allcran
 
-graph crawler flor [cran](https://cran.r-project.org/)/[mran](https://mran.revolutionanalytics.com/)
+graph crawler for [cran](https://cran.r-project.org/)/[mran](https://mran.revolutionanalytics.com/)
 registry
 
 # install
